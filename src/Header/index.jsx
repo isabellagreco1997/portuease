@@ -10,7 +10,7 @@ const Header = () => {
       </div>
       <header className="bg-[#006847] max-w-7xl text-white p-4 flex justify-between items-center mx-auto">
         <div className="flex items-center space-x-4">
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/portuease/" className="flex items-center space-x-2">
             <div className="bg-white p-2 rounded-full">
               <img src={Logo} alt="Logo" className="h-8 w-8" />
             </div>
@@ -18,7 +18,7 @@ const Header = () => {
           </Link>
         </div>
         <nav className="hidden md:flex space-x-8">
-          <Link to="/" className="text-white hover:text-gray-300">Home</Link>
+          <Link to="/portuease/" className="text-white hover:text-gray-300">Home</Link>
           <Link to="/lessons" className="text-white hover:text-gray-300">Lessons</Link>
           <Link to="/tutors" className="text-white hover:text-gray-300">Tutors</Link>
           <Link to="/quizzes" className="text-white hover:text-gray-300">Quizzes</Link>

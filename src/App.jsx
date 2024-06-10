@@ -34,7 +34,7 @@ function App() {
           <Header />
           <Layout>
           <Routes>
-            <Route path="/" element={
+            <Route path="/portuease/" element={
               <>
                 <Hero />
                 <JoinUsBanner />
